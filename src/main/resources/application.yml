@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: halo-seckill
+  datasource:
+    url: jdbc:mysql://localhost:3306/halo-seckill?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: rootroot
+    driver-class-name: com.mysql.jdbc.Driver
+
+
